@@ -1,0 +1,128 @@
+/*BODY*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(235, 222, 199);
+    color: white;
+    margin: 0;
+    padding: 0;  
+}
+div {
+    color: black;
+    position: flex;
+}
+.mobile {
+    display: none;
+}
+h4{
+    color: rgba(12, 12, 12, 0.247);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.author{
+    padding: 20px 0px;
+}
+.container{
+    position: relative;
+    margin: 10px 10px 0px 200px;
+    display:inline-flex;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+}
+
+.img-content img{
+    border: 1px ;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.main-content{
+    border-radius: 0px 10px 10px 0px;
+    background-color: #fff;
+    padding: 20px 200px 0px 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.paragraph{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.money{
+    display: flex;
+}
+
+.dollar {
+    color: rgba(11, 146, 94, 0.808);
+}
+.line-through{
+    text-decoration: line-through;
+    padding: 20px 20px 20px 20px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    padding: 5px 150px;
+    background-color: rgba(11, 146, 94, 0.808);
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .svg-image {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+  }
+  
+  .text {
+    font-size: 18px;
+    color: white;
+    padding: 4px;
+  }
+.button:hover{
+    background-color: rgb(6, 109, 69);
+    color: #fff;
+}
+.attribution {
+    margin-top: 400px;
+    margin-left: 100px;
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+/* RESPONSIVE RULES */
+@media screen and (max-width: 669px) {
+    .mobile{
+        position: relative;
+        display:flex;
+        width: 100%;  
+    }
+    .desktop{
+        display: none;
+    }
+    .container{
+        display:block;
+        margin: 10px;
+    }
+    .img-content img{
+        border: 1px ;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .main-content{
+        border-radius: 0px 0px 10px 10px;
+    }
+    .button {
+        padding: 10px 20px 10px 50px;
+    }
+    .attribution {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .author{
+        padding: 0px;
+        margin-right: 0px;
+    }
+}
